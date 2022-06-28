@@ -1,0 +1,18 @@
+{
+  "squid": {
+    "id": "220ee8c5-07d7-48d9-8df5-7d23376cb664",
+    "name": "Squid Grok Parser",
+    "parsers": [
+      {
+        "id": "f812c6dc-40cc-4c77-abf8-e15fccdfea32",
+        "name": "GrokParser",
+        "type": "com.cloudera.parserchains.parsers.GrokParser",
+        "config": {
+          "grokExpression": {
+            "grokExpression": "%{NUMBER:timestamp}\\s+%{NUMBER:response_time} %{IPORHOST:ip_src_addr} %{NOTSPACE:squid_request_status}/%{NUMBER:http_status_code} %{NUMBER:transfer_size} %{NOTSPACE:http_method} (%{URIPROTO:url_scheme}://)?(?<domain>\\S+?)(:%{INT:ip_dst_port})?(/%{NOTSPACE:url_path})?\\s+%{NOTSPACE:client_identity}\\s+%{NOTSPACE:peer_code}/%{NOTSPACE:ip_dst_addr}\\s+%{NOTSPACE:content_type}"
+          }
+        }
+      }
+    ]
+  }
+}

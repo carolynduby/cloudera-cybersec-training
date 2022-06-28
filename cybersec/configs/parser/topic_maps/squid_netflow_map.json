@@ -1,0 +1,10 @@
+{
+  "netflow.*": {
+    "chainKey": "netflow",
+    "source": "netflow"
+  },
+  "squid": {
+    "chainKey": "squid",
+    "source": "squid"
+  }
+}
