@@ -9,4 +9,4 @@ fi
 flink run \
 --jobmanager yarn-cluster -yjm 2048 -ytm 2048 --detached --yarnname "Majestic Million Enrichment Import" \
 -yt samples \
-flink-enrichment-loading-2.3.0.jar  $1.properties
+~/jars/flink-enrichment-loading-2.3.0.jar  $1.properties
