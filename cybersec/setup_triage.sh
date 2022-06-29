@@ -13,12 +13,12 @@ hdfs dfs -mkdir -p /user/training/cybersec/data/reference-data
 wget https://cduby-cybersec-rels.s3.amazonaws.com/GeoLite2-City_20210105.tar.gz
 gunzip GeoLite2-City_*.tar.gz
 tar xvf GeoLite2-City_*.tar
-hdfs dfs -put GeoLite2-City_*/GeoLite2-City.mmdb /user/training/flink-cyber/reference-data/GeoLite2-City.mmdb
+hdfs dfs -put GeoLite2-City_*/GeoLite2-City.mmdb /user/training/cybersec/data/reference-data/GeoLite2-City.mmdb
 
 wget https://cduby-cybersec-rels.s3.amazonaws.com/GeoLite2-ASN_20210216.tar.gz
 gunzip GeoLite2-ASN_*.tar.gz
 tar xvf GeoLite2-ASN_*.tar
-hdfs dfs -put GeoLite2-ASN_*/GeoLite2-ASN.mmdb /user/training/flink-cyber/reference-data/GeoLite2-ASN.mmdb
+hdfs dfs -put GeoLite2-ASN_*/GeoLite2-ASN.mmdb /user/training/cybersec/data/reference-data/GeoLite2-ASN.mmdb
 
 # create enrichment tables in hbase
 echo -e "create 'enrichments' , 'id' , 'majestic_million', 'first_seen', 'malicious_host', 'malicious_domain'" | hbase shell -n
