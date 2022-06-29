@@ -1,5 +1,8 @@
 # Parse and normalize squid log format using a Grok parser.
 ## Objectives
+* Configure a parser.
+* View the output of the parser.
+* Observe error handling.
 ## Lab Instructions
 * Open the terminal window
 * Run the parser set up command
@@ -81,5 +84,5 @@ Found 1 items
 [training@localhost cybersec]$ ./publish_sample.sh samples/squid_error.txt squid
 Publishing 'samples/squid_error.txt' to topic 'squid'.  TODAY=1656456098 SRC_IP = 1.1.1.1
 ```
-* In SMM browse to the edu.parser.error topic.
+* In SMM browse to the edu.parser.error topic.  There should be one error message in the topic.
 ![Parser error topic](images/parser_error_topic.png)
