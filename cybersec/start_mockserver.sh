@@ -1,1 +1,1 @@
-nohup java -Dmockserver.initializationJsonPath=mockserver_expectations.json -jar mockserver-netty-5.13.2-shaded.jar -serverPort 1080 -proxyRemotePort 1081 -proxyRemoteHost localhost.localdomain -logLevel DEBUG > mockserver.log 2>&1  &
+nohup java -Dmockserver.initializationJsonPath=./configs/triage/mockserver_expectations.json -jar mockserver-netty-5.13.2-shaded.jar -serverPort 1080 -proxyRemotePort 1081 -proxyRemoteHost localhost.localdomain -logLevel DEBUG > mockserver.log 2>&1  &
