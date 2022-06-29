@@ -1,0 +1,13 @@
+{
+  "enrichment": {
+    "fieldMap": {
+      "stellar": {
+        "config": [
+          "is_majestic_million := ENRICHMENT_EXISTS('majestic_million', domain, 'metron_enrich', 'cf')",
+        ]
+      }
+    },
+    "fieldToTypeMap": {},
+    "config": {}
+  }
+}

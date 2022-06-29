@@ -1,0 +1,16 @@
+[
+{
+  "source": "squid",
+  "kind": "HBASE",
+  "fields": [
+    {
+      "name": "domain",
+      "enrichmentType": "malicious_domain"
+    },
+    {
+      "name": "domain",
+      "enrichmentType": "majestic_million"
+    }
+  ]
+}
+]

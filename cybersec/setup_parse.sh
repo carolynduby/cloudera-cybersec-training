@@ -5,6 +5,7 @@ hdfs dfs -mkdir -p /user/training/cybersec/data/original-source
 hdfs dfs -mkdir -p /user/training/cybersec/patterns
 hdfs dfs -put configs/parser/metron/patterns/squid /user/training/cybersec/patterns
 
-# prime the squid topics
-./publish_squid_events.sh
-
+# make sure shell commands are executable
+chmod a+x *.sh
+# put the jars in the right place for the labs
+./check_jars.sh

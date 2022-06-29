@@ -1,0 +1,63 @@
+[
+  {
+    "httpRequest": {
+      "path": "/simpleFirst"
+    },
+    "httpResponse": {
+      "body": "some first response"
+    }
+  },
+  {
+    "id": "c143d692-76d7-4cf1-8db8-95e574927edb",
+    "priority": 1,
+    "httpRequest": {
+      "method": "POST",
+      "path": "/model",
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "Authorization": [
+          "Bearer mybearertokenaae6b840d045b574d96e35e271419720d0d7645534da6d5ba3d.74c9e8867ef7e0750b5772671acf7e413a744f6d77507eac83584014c71c5866"
+        ]
+      },
+      "body": {
+        "type": "JSON",
+        "json": {
+          "accessKey": "mup8kz1hsl3erczwepbt8jupamita6y6",
+          "request": {
+            "domain": "zsrycovuxfgzyn.com"
+          }
+        },
+        "matchType": "STRICT"
+      }
+    },
+    "times": {
+      "unlimited": true
+    },
+    "timeToLive": {
+      "unlimited": true
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "{\"success\":true,\"response\":{\"legit\":false}}"
+    }
+  },
+  {
+    "id": "d143d692-76d7-4cf1-8db8-95e574927edb",
+    "priority": 0,
+    "httpRequest": {
+      "path": "/model"
+    },
+    "times": {
+      "unlimited": true
+    },
+    "timeToLive": {
+      "unlimited": true
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "{\"success\":true,\"response\":{\"legit\":true}}"
+    }
+  }
+]
