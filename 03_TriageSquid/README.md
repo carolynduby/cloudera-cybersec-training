@@ -200,6 +200,8 @@ Publishing 'samples/squid_enrich.txt' to topic 'squid'.  TODAY=1656556228 SRC_IP
 22/06/29 19:30:30 INFO utils.Log4jControllerRegistration$: Registered kafka:type=kafka.Log4jController MBean
 ```
 * Open SMM and view the latest events in the edu.triage.output topic in Avro format.  The scores appear at the end of the json structure in the cyberScoresDetails.
-![Completed MM](images/scored_event.png)
+
+<img src="images/scored_event.png" width="50%" height="50%" title="Scored event in Kafka">
+
 * Congratulations!  You successfully triaged events!
 
