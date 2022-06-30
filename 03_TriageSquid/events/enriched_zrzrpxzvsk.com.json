@@ -1,0 +1,49 @@
+{
+  "message": {
+    "id": "1bd87bc6-a863-40f2-9f4d-d00dafa22b28",
+    "ts": 1656547848000,
+    "originalSource": {
+      "topic": "squid",
+      "partition": 0,
+      "offset": 7,
+      "signature": {
+        "bytes": "\u0000"
+      }
+    },
+    "message": "",
+    "threats": null,
+    "extensions": {
+      "ip_src_addr.asn.mask": "1.1.1.0/24",
+      "ip_src_addr.geo.longitude": "143.2104",
+      "ip_dst_port": "443",
+      "squid_request_status": "TCP_TUNNEL",
+      "ip_src_addr.asn.org": "CLOUDFLARENET",
+      "ip_dst_addr.geo.longitude": "-79.863",
+      "ip_dst_addr.asn.org": "UUNET",
+      "ip_dst_addr.asn.mask": "100.6.0.0/15",
+      "http_method": "CONNECT",
+      "ip_dst_addr": "100.6.7.8",
+      "domain.malicious_domain.source": "easylist-justdomains",
+      "content_type": "-",
+      "ip_dst_addr.geo.latitude": "40.4325",
+      "ip_dst_addr.geo.country": "US",
+      "ip_src_addr": "1.1.1.1",
+      "transfer_size": "39",
+      "peer_code": "HIER_DIRECT",
+      "http_status_code": "200",
+      "client_identity": "-",
+      "ip_dst_addr.geo.city": "Pittsburgh",
+      "ip_dst_addr.asn.number": "701",
+      "ip_src_addr.geo.country": "AU",
+      "ip_src_addr.geo.latitude": "-33.494",
+      "domain": "zrzrpxzvsk.com",
+      "response_time": "71",
+      "ip_src_addr.asn.number": "13335",
+      "dga_model.legit": "true",
+      "ip_dst_addr.geo.state": "Pennsylvania"
+    },
+    "source": "squid",
+    "dataQualityMessages": []
+  },
+  "cyberScoresDetails": []
+}

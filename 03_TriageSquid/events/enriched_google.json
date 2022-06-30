@@ -1,0 +1,48 @@
+{
+  "message": {
+    "id": "b2dee562-ef1b-4eed-8a2a-76cbff05e1d8",
+    "ts": 1656547848000,
+    "originalSource": {
+      "topic": "squid",
+      "partition": 0,
+      "offset": 5,
+      "signature": {
+        "bytes": "\u0000"
+      }
+    },
+    "message": "",
+    "threats": null,
+    "extensions": {
+      "ip_src_addr.asn.mask": "1.1.1.0/24",
+      "ip_src_addr.geo.longitude": "143.2104",
+      "ip_dst_port": "443",
+      "squid_request_status": "TCP_TUNNEL",
+      "ip_dst_addr.geo.longitude": "-77.4728",
+      "ip_src_addr.asn.org": "CLOUDFLARENET",
+      "ip_dst_addr.asn.org": "AMAZON-AES",
+      "ip_dst_addr.asn.mask": "54.172.0.0/14",
+      "ip_dst_addr": "54.175.18.14",
+      "http_method": "CONNECT",
+      "content_type": "-",
+      "ip_dst_addr.geo.country": "US",
+      "ip_dst_addr.geo.latitude": "39.0481",
+      "ip_src_addr": "1.1.1.1",
+      "transfer_size": "39",
+      "peer_code": "HIER_DIRECT",
+      "http_status_code": "200",
+      "ip_dst_addr.geo.city": "Ashburn",
+      "client_identity": "-",
+      "ip_dst_addr.asn.number": "14618",
+      "ip_src_addr.geo.country": "AU",
+      "ip_src_addr.geo.latitude": "-33.494",
+      "domain": "google.com",
+      "response_time": "71",
+      "ip_src_addr.asn.number": "13335",
+      "dga_model.legit": "true",
+      "ip_dst_addr.geo.state": "Virginia"
+    },
+    "source": "squid",
+    "dataQualityMessages": []
+  },
+  "cyberScoresDetails": []
+}
