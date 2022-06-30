@@ -1,0 +1,10 @@
+{
+  "name": "Potential DGA",
+  "id" : "f94b1ea4-f811-11ec-b939-0242ac120002",
+  "order" : "1",
+  "tsStart" : "2020-01-01T00:00:00.00Z",
+  "tsEnd" : "2025-01-01T00:00:00.00Z",
+  "type" : "JS",
+  "ruleScript" : "if (message.getOrDefault(\"dga_model.legit\", \"true\") == \"false\") {return {score: 70.0, reason: 'Potential DGA'};} else { return {score: 0.0, reason: 'Legit Domain'}};",
+  "enabled" : true
+}

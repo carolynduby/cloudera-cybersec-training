@@ -1,0 +1,10 @@
+{
+  "name": "Malicious Domain Threat Intel",
+  "id" : "505a534f-0b33-4053-a67b-d61aad93a941",
+  "order" : "1",
+  "tsStart" : "2020-01-01T00:00:00.00Z",
+  "tsEnd" : "2025-01-01T00:00:00.00Z",
+  "type" : "JS",
+  "ruleScript" : "if (message.containsKey(\"domain.malicious_domain.source\") == \"true\") {return {score: 90.0, reason: 'Malicious Domain'};} else { return {score: 0.0, reason: 'Not on Malicious Domain List'}};",
+  "enabled" : true
+}
