@@ -142,6 +142,7 @@ You can formatted samples of what the three output messages look like here:
 |[domain=google.com](events/enriched_google.json)|
 |[domain=zrzrpxzvsk.com](events/enriched_zrzrpxzvsk.com.json)|
 |[domain=zsrycovuxfgzyn.com](events/enriched_zsrycovuxfgzyn.com.json)|
+
 When viewing the messages it maybe helpful to put the message contents in a json pretty printer.
 In addition to the original fields from the event, the enriched events will have geocodes for their source and destination ip addresses.  The geocode enrichments look similar to the following:
 ```
