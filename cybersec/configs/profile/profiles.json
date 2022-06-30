@@ -1,0 +1,26 @@
+[
+  {
+    "profileGroupName": "domain_activity",
+    "sources": [
+      "squid"
+    ],
+    "keyFieldNames": [
+      "domain"
+    ],
+    "periodDuration": 1,
+    "periodDurationUnit": "MINUTES",
+    "measurements": [
+      {
+        "resultExtensionName": "domain_first_seen",
+        "aggregationMethod": "FIRST_SEEN",
+        "firstSeenExpirationDuration": 60,
+        "firstSeenExpirationDurationUnit": "DAYS"
+      },
+      {
+        "fieldName": "transfer_size",
+        "resultExtensionName": "total_transfer_size",
+        "aggregationMethod": "SUM"
+      }
+    ]
+  }
+]
