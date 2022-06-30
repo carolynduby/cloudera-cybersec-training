@@ -18,7 +18,10 @@
 ![Deploy 3](images/deploy_hbase_phoenix_3.png)
 ![Deploy 4](images/deploy_hbase_phoenix_4.png)
 * Verify that the Hbase and Phoenix services are running and have a green check indicating good health.
-![Check Health](images/phoenix_hbase_installed.png)
+
+<img src="images/phoenix_hbase_installed.png" width="50%" height="50%" title="Check Hbase and Phoenix Health">
+
+
 * Open a terminal window and change to the cybersec script directory.
 ```
 cd /home/training/cloudera-cybersec-training/cybersec
